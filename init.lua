@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  colorscheme = "catppuccin",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -56,8 +56,8 @@ return {
 
   -- Configure require("lazy").setup() options
   lazy = {
-    defaults = { lazy = true },
-    performance = {
+    defaults = { lazy = true }, 
+    performance= {
       rtp = {
         -- customize default disabled vim plugins
         disabled_plugins = { "tohtml", "gzip", "matchit", "zipPlugin", "netrwPlugin", "tarPlugin" },
@@ -83,3 +83,4 @@ return {
     -- }
   end,
 }
+
